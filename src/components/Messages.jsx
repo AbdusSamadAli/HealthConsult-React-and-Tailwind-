@@ -4,7 +4,6 @@ const Messages = () => {
   const messages = [
     { id: 1, date: '2024-07-10', content: 'Your test results are available.', sender: 'Dr. John Doe' },
     { id: 2, date: '2024-07-12', content: 'Reminder: Upcoming appointment on 2024-07-20.', sender: 'HealthConsult' },
-    // Add more messages as needed
   ];
 
   return (

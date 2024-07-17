@@ -4,7 +4,6 @@ const MedicalHistory = () => {
   const medicalHistory = [
     { id: 1, date: '2024-06-30', description: 'Routine check-up', doctor: 'Dr. John Doe' },
     { id: 2, date: '2024-05-20', description: 'Blood test', doctor: 'Dr. Jane Smith' },
-    // Add more medical history records as needed
   ];
 
   return (

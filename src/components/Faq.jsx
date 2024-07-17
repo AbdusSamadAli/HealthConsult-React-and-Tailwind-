@@ -1,4 +1,4 @@
-// Faq.jsx
+
 import React, { useState } from "react";
 
 const Faq = () => {
@@ -109,4 +109,4 @@ const Faq = () => {
   );
 };
 
-export default Faq; // Export Faq component as default
+export default Faq; 

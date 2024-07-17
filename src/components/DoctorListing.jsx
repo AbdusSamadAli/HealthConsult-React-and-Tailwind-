@@ -61,7 +61,6 @@ const DoctorListing = () => {
                   challenges related to anxiety and depression.
                 </>
               )}
-              {/* Add more detailed information as needed */}
             </p>
           </div>
         ))}

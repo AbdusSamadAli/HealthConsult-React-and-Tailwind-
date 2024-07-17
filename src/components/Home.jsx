@@ -122,10 +122,10 @@ const Home = () => {
                         </div>
                         <div className="bg-white rounded-lg shadow-md p-6 hover:bg-slate-100">
                           <h3 className="text-xl font-semibold text-blue-700 mb-2">
-                            Tip 4: Keep a Good Sugar Level
+                            Tip 4: Do Yoga
                           </h3>
                           <p className="text-lg text-gray-700 mb-4">
-                            Avoid consuming excess sugar to reduce the risk of diabetes.
+                            Exercising and doing yoga will be good for both physical and mental health.
                           </p>
                         </div>
                         <div className="flex items-center justify-center md:col-span-2">
@@ -184,9 +184,9 @@ const Home = () => {
           <p className="text-gray-600 text-xl">
             © 2024 HealthConsult. All rights reserved.
           </p>
-          <CiInstagram className="text-3xl mx-1 h-10 w-10" />
-          <FaFacebook className="text-3xl mx-1 h-10 w-10" />
-          <FaWhatsapp className="text-3xl mx-1 h-10 w-10" />
+          <CiInstagram className="text-2xl mx-1 h-10 w-10" />
+          <FaFacebook className="text-2xl mx-1 h-10 w-10" />
+          <FaWhatsapp className="text-2xl mx-1 h-10 w-10" />
         </div>
       </footer>
 

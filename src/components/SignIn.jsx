@@ -19,28 +19,20 @@ const SignIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Check if any field is empty
     const { email, password } = formData;
     if (!email || !password) {
       setError('Please enter both email and password.');
       return;
     }
-
-    // Clear error state
     setError('');
-
-    // Mock authentication logic (replace with actual authentication)
     console.log('Sign-in submitted:', formData);
-    alert('Sign in successful!'); // Replace with actual sign-in logic
-
-    // Clear form data after submission
+    alert('Sign in successful!'); 
     setFormData({ email: '', password: '' });
   };
 
   return (
     <div>
-      <Navbar /> {/* Render the Navbar component */}
+      <Navbar /> 
       <div className="container mx-auto mt-8">
         <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">Sign In</h1>
         <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">

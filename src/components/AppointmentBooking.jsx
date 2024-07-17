@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar'; // Import the Navbar component
+import Navbar from './Navbar'; 
 
 const AppointmentBooking = () => {
   const [formData, setFormData] = useState({
@@ -24,8 +24,6 @@ const AppointmentBooking = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Check if any field is empty
     const { name, date, hour, minute, period, doctor, speciality } = formData;
     if (!name || !date || !hour || !minute || !doctor || !speciality) {
       setError('Please enter all fields.');

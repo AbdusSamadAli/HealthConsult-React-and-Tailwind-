@@ -4,8 +4,7 @@ const UpcomingAppointments = () => {
   const appointments = [
     { id: 1, date: '2024-07-20', time: '10:00 AM', doctor: 'Dr. Frank Arnold' },
     { id: 2, date: '2024-07-22', time: '02:00 PM', doctor: 'Dr. Jane Smith' },
-    { id: 3, date: '2024-07-28', time: '06:00 PM', doctor: 'Dr. Sam Kane' },
-    { id: 2, date: '2024-07-29', time: '04:00 PM', doctor: 'Dr. Harry Warner' }
+    { id: 3, date: '2024-07-28', time: '06:00 PM', doctor: 'Dr. John Doe' }
   ];
 
   return (
