@@ -8,7 +8,7 @@ const UpcomingAppointments = () => {
   ];
 
   return (
-    <div className="bg-white p-4 shadow-md rounded-md">
+    <div className="bg-white p-4 shadow-md rounded-md hover:bg-blue-50">
       <h2 className="text-2xl font-semibold mb-4 text-blue-600">Upcoming Appointments</h2>
       <ul>
         {appointments.map(appointment => (

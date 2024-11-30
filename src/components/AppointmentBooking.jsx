@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar'; 
+
 
 const AppointmentBooking = () => {
   const [formData, setFormData] = useState({
@@ -39,10 +39,9 @@ const AppointmentBooking = () => {
 
   return (
     <div>
-      <Navbar />
       <div className="container mx-auto mt-8">
         <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">Book an Appointment</h1>
-        <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto">
+        <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto hover:bg-blue-50">
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name</label>
             <input

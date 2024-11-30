@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
 import Faq from "./Faq";
 import DoctorListing from "./DoctorListing";
 import PatientDashboard from "./PatientDashboard";
@@ -10,13 +9,9 @@ import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.png";
 import image3 from "../assets/image3.png";
 import image4 from "../assets/image4.jpg";
-import { CiInstagram } from "react-icons/ci";
-import { FaFacebook } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <main className="container mx-auto p-4 flex flex-wrap items-center">
         <Routes>
           <Route
@@ -179,17 +174,6 @@ const Home = () => {
           <Route exact path="/sign-in" element={<SignIn />} />
         </Routes>
       </main>
-      <footer className="bg-gradient-to-r from-blue-200 to-blue-400 p-6 shadow-lg flex items-center justify-between">
-        <div className="container mx-auto flex items-center justify-center">
-          <p className="text-gray-600 text-xl">
-            © 2024 HealthConsult. All rights reserved.
-          </p>
-          <CiInstagram className="text-2xl mx-1 h-10 w-10" />
-          <FaFacebook className="text-2xl mx-1 h-10 w-10" />
-          <FaWhatsapp className="text-2xl mx-1 h-10 w-10" />
-        </div>
-      </footer>
-
     </div>
   );
 };

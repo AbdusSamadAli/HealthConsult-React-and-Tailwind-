@@ -1,5 +1,5 @@
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
 import Home from "./components/Home";
 import DoctorListing from "./components/DoctorListing";
 import PatientDashboard from "./components/PatientDashboard";
@@ -9,12 +9,7 @@ import SignIn from "./components/SignIn";
 const App = () => {
   return (
     <Router>
-      <div>
-        <div className="container mx-auto text-center">
-          <ul className="flex justify-center">
-            <li className="mx-4"></li>
-          </ul>
-        </div>
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/doctors" element={<DoctorListing />} />
@@ -22,10 +17,11 @@ const App = () => {
           <Route path="/book-appointment" element={<AppointmentBooking />} />
           <Route path="/sign-in" element={<SignIn />} />
         </Routes>
-      </div>
+      </Layout>
     </Router>
   );
 };
 
 export default App;
+
 
