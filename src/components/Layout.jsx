@@ -9,8 +9,7 @@ const Layout = ({ children }) => {
     <div
       className="flex flex-col min-h-screen bg-gradient-to-r from-blue-100 via-gray-200 to-white animate-gradient sm:bg-gradient-to-b sm:from-blue-200 sm:via-gray-300 sm:to-white md:bg-gradient-to-tl md:from-blue-300 md:via-gray-400 md:to-white lg:bg-gradient-to-br xl:bg-gradient-to-l"
     >
-        <Navbar />
-
+      <Navbar />
       <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8">
         {children}
       </main>
@@ -19,9 +18,11 @@ const Layout = ({ children }) => {
           <p className="text-gray-600 text-xl">
             © 2024 HealthConsult. All rights reserved.
           </p>
-          <CiInstagram className="text-2xl mx-1 h-10 w-10" />
-          <FaFacebook className="text-2xl mx-1 h-10 w-10" />
-          <FaWhatsapp className="text-2xl mx-1 h-10 w-10" />
+          <div className="flex space-x-4">
+            <CiInstagram className="text-2xl h-8 w-8 text-gray-900 hover:text-blue-800 transition" />
+            <FaFacebook className="text-2xl h-8 w-8 text-gray-900 hover:text-blue-800 transition" />
+            <FaWhatsapp className="text-2xl h-8 w-8 text-gray-900 hover:text-blue-800 transition" />
+          </div>
         </div>
       </footer>
       <style>
@@ -42,3 +43,4 @@ Layout.propTypes = {
 };
 
 export default Layout;
+
