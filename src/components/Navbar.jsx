@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaUserDoctor } from "react-icons/fa6";
 const Navbar = () => {
@@ -13,9 +12,6 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className="flex items-center">
-            <Link to="/" className="text-lg text-white hover:text-blue-200 hover:underline transition-colors duration-300 mr-4">
-              Home
-            </Link>
             <Link to="/doctors" className="text-lg text-white hover:text-blue-200 hover:underline transition-colors duration-300 mr-4">
               Doctors
             </Link>

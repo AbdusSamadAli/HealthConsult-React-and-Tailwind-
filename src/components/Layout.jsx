@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import Navbar from "./Navbar";
 import { CiInstagram } from "react-icons/ci";
@@ -9,10 +8,6 @@ const Layout = ({ children }) => {
   return (
     <div
       className="flex flex-col min-h-screen bg-gradient-to-r from-blue-100 via-gray-200 to-white animate-gradient sm:bg-gradient-to-b sm:from-blue-200 sm:via-gray-300 sm:to-white md:bg-gradient-to-tl md:from-blue-300 md:via-gray-400 md:to-white lg:bg-gradient-to-br xl:bg-gradient-to-l"
-      style={{
-        backgroundSize: "400% 400%",
-        animation: "gradientShift 8s ease infinite",
-      }}
     >
         <Navbar />
 

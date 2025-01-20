@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const MedicalHistory = () => {
   const medicalHistory = [
@@ -7,7 +7,7 @@ const MedicalHistory = () => {
   ];
 
   return (
-    <div className="bg-white p-4 sm:p-6 shadow-lg rounded-lg">
+    <div className="bg-white p-4 sm:p-6 shadow-lg rounded-lg hover:bg-blue-50">
       <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-blue-600">
         Medical History
       </h2>
